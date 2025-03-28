@@ -10035,24 +10035,22 @@ a.text-dark:hover, a.text-dark:focus {
     border-color: #dee2e6;
   }
 }
-
 .map_container {
     display: flex;
     justify-content: center; /* Centraliza horizontalmente */
-    align-items: center; /* Centraliza verticalmente (se houver altura definida) */
+    align-items: center; /* Centraliza verticalmente (se necessário) */
     width: 100%;
 }
 
 .map {
-    max-width: 100%;
-    text-align: center; /* Garante que elementos inline, como o iframe, fiquem centralizados */
+    text-align: center; /* Centraliza o iframe dentro da div */
 }
 
 iframe {
-    width: 100%; /* Para se ajustar ao tamanho do contêiner */
-    max-width: 600px; /* Defina um valor máximo para evitar que fique muito grande */
+    width: 100%; /* Para se adaptar ao tamanho do container */
+    max-width: 600px; /* Define um limite para o tamanho */
     height: 400px; /* Ajuste conforme necessário */
     display: block;
-    margin: 0 auto; /* Caso o text-align falhe, isso garante centralização */
 }
+
 /*# sourceMappingURL=bootstrap.css.map */
